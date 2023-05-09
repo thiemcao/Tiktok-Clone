@@ -1,0 +1,63 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 16px;
+    margin-left: 350px;
+}
+
+
+.video-content{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.093);
+    height: 700px;
+    max-height: 1000px;
+}
+
+.infor{
+    display: flex;
+    align-items: center;
+
+}
+
+.avatar{
+    width: 5.6rem;
+    height: 5.6rem;
+    border-radius: 50%;
+}
+
+.infor-name{
+    width: 400px;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.infor-name p{
+    font-size: 14px;
+}
+
+.name-music{
+    padding-left: 60px;
+    font-size: 16px;
+}
+
+
+
+// VideoContent
+
+.video{
+    width: 70%;
+    height: 550px
+}
+
+
+// icon
+.icon{
+    display: inline-flex;
+    flex-direction: column;
+    position: relative;
+    font-size: 40px;
+    position: absolute;
+    padding-left: 20px;
+    padding-top: 350px;
+    gap: 20px;
+}
